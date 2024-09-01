@@ -1,8 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .beginning {
     background: url(/assets/landing/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    
+    height: 500px;
     font-size: xx-large;
+    color: white;
+
+    nav {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .header-main {
+        padding-top: 150px;
+    }
 }
