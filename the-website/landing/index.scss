@@ -5,13 +5,12 @@
 
 //section 1
 .beginning {
-    background: url(/assets/landing/header-bg.jpg);
+    background: url(/assets/landing/cup-of-tea-cookie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 500px;
     font-size: xx-large;
-    color: white;
 
     nav {
         img {
@@ -25,4 +24,23 @@
     }
 }
 
-//section 2,
+//section 2
+
+.sec-2 {
+    .three-wel {
+        width: fit-content;
+
+        div {
+            max-width: 300px;
+        }
+    }
+}
+
+
+//section 3
+.sec-3 {
+    div {
+        max-width: 350px;
+        width: fit-content;
+    }
+}

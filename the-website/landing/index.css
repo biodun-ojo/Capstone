@@ -4,13 +4,12 @@
 }
 
 .beginning {
-  background: url(/assets/landing/header-bg.jpg);
+  background: url(/assets/landing/cup-of-tea-cookie.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 500px;
   font-size: xx-large;
-  color: white;
 }
 .beginning nav img {
   width: 50px;
@@ -18,4 +17,20 @@
 }
 .beginning .header-main {
   padding-top: 150px;
+}
+
+.sec-2 .three-wel {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.sec-2 .three-wel div {
+  max-width: 300px;
+}
+
+.sec-3 div {
+  max-width: 350px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }/*# sourceMappingURL=index.css.map */
