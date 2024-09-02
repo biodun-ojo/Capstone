@@ -18,6 +18,9 @@
 .beginning .header-main {
   padding-top: 150px;
 }
+.beginning .header-main button {
+  background-color: rgb(148, 168, 120);
+}
 
 .sec-2 .three-wel {
   width: -webkit-fit-content;
@@ -26,6 +29,10 @@
 }
 .sec-2 .three-wel div {
   max-width: 300px;
+}
+.sec-2 .three-wel div img {
+  height: 50px;
+  width: 50px;
 }
 
 .sec-3 div {

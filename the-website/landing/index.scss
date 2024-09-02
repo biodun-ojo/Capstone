@@ -21,6 +21,10 @@
 
     .header-main {
         padding-top: 150px;
+
+        button {
+            background-color: rgb(148, 168, 120);
+        }
     }
 }
 
@@ -32,6 +36,11 @@
 
         div {
             max-width: 300px;
+
+            img {
+                height: 50px;
+                width: 50px;
+            }
         }
     }
 }
