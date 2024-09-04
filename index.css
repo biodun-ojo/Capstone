@@ -1,3 +1,7 @@
+body {
+  font-family: "Signika Negative", sans-serif !important;
+}
+
 .sec-1 {
   background-image: url(assets/landing/cup-of-tea-cookie.jpg);
   background-repeat: no-repeat;
@@ -11,6 +15,12 @@
 }
 .sec-1 .header-main {
   padding-top: 150px;
+}
+.sec-1 .header-main h4 {
+  color: rgb(148, 168, 120);
+}
+.sec-1 .header-main h1 {
+  color: rgb(77, 100, 44);
 }
 .sec-1 .header-main button {
   background-color: rgb(148, 168, 120);
@@ -61,4 +71,54 @@
 
 footer {
   background-color: rgb(148, 168, 120);
+}
+
+@media (min-width: 767px) {
+  .sec-1 .options {
+    width: 600px;
+  }
+  .sec-1 .options a {
+    color: black;
+  }
+  .sec-3 img {
+    width: 640px !important;
+  }
+  .arri4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    max-width: 920px;
+    gap: 40px;
+  }
+  .sec-5 img {
+    max-width: 500px;
+  }
+  .sec-6 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .sec-6 .nofunc {
+    width: 350px;
+  }
+  .sec-6 .nofunc hr {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1023px) {
+  .sec-3 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .sec-5 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .sec-5 h2 {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }/*# sourceMappingURL=index.css.map */
