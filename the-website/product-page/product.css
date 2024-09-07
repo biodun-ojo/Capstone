@@ -13,6 +13,10 @@ header .header-main {
   padding-top: 150px;
 }
 
+section .intro {
+  max-width: 65ch;
+}
+
 footer {
   background-color: rgb(148, 168, 120);
 }/*# sourceMappingURL=product.css.map */

@@ -1,7 +1,19 @@
 body {
-    font-family: "Outfit", sans-serif !important;
+  font-family: "Outfit", sans-serif !important;
+}
+
+header {
+  background-image: url(assets/new-main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+
+  .header-main {
+    padding-top: 150px;
+  }
 }
 
 footer {
-    background-color: rgb(148, 168, 120);
+  background-color: rgb(148, 168, 120);
 }

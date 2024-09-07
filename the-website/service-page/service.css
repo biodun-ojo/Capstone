@@ -2,6 +2,17 @@ body {
   font-family: "Outfit", sans-serif !important;
 }
 
+header {
+  background-image: url(assets/new-main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+header .header-main {
+  padding-top: 150px;
+}
+
 footer {
   background-color: rgb(148, 168, 120);
 }/*# sourceMappingURL=service.css.map */
