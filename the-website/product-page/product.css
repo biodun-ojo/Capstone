@@ -9,14 +9,46 @@ header {
   background-position: center;
   height: 500px;
 }
+
+header nav img {
+  width: 50px;
+  height: 50px;
+}
+
 header .header-main {
   padding-top: 150px;
+}
+
+section {
+  max-width: 1056px;
 }
 
 section .intro {
   max-width: 65ch;
 }
 
+section .the-three {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+section .the-three .prod-div {
+  max-width: 320px;
+}
+
 footer {
   background-color: rgb(148, 168, 120);
-}/*# sourceMappingURL=product.css.map */
+}
+
+@media (min-width: 767px) {
+  .options {
+    width: 600px;
+  }
+
+  .options a {
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=product.css.map */

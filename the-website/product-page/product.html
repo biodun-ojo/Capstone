@@ -19,9 +19,24 @@
 <body>
 
     <header>
-        <div>
+        <nav>
+            <div class="d-none d-md-block">
+                <div class="d-flex justify-content-between py-4 mx-auto options">
+                    <div>
+                        <a href="/index.html" class="mx-3 text-decoration-none">Home</a>
+                        <a href="assets/deadend.html" class="mx-3 text-decoration-none">About</a>
+                        <a href="assets/deadend.html" class="mx-3 text-decoration-none">Shop</a>
+                    </div>
 
-        </div>
+                    <div>
+                        <a href="/the-website/service-page/service.html" class="mx-3 text-decoration-none">Service</a>
+                        <a href="#" class="mx-3 text-decoration-none">Product</a>
+                        <a href="assets/deadend.html" class="mx-3 text-decoration-none">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/flowbite--bars-from-left-outline.svg" alt="" class="d-md-none">
+        </nav>
 
         <div class="d-flex flex-column justify-content-center align-items-center px-3 header-main">
             <h4 class="mb-3">Over hundred flavours of tea</h4>
@@ -32,7 +47,7 @@
         </div>
     </header>
 
-    <section class="mx-3">
+    <section class="mx-3 px-2 mx-auto">
         <div class="px-2 my-5 intro">
             <h4>Check Out</h4>
             <h2>OUR PRODUCT</h2>
@@ -43,30 +58,39 @@
             </a>
         </div>
 
-        <div class="my-5 the-three">
-            <div class="mx-2 prod-div">
+        <div class="my-5 mx-auto d-md-flex gap-4 the-three">
+            <div class="mx-2 my-5 prod-div">
                 <img src="assets/pexels-beytlik-7534787.jpg" alt="" class="w-100">
                 <h5>product title</h5>
                 <p>$78.34</p>
+                <a href="assets/deadend.html">
+                    <button class="border-0">BUY NOW</button>
+                </a>
             </div>
-            <div class="mx-2 prod-div">
+            <div class="mx-2 my-5 prod-div">
                 <img src="assets/pexels-dina-nasyrova-2006209-5275234.jpg" alt="" class="w-100">
                 <h5>product title</h5>
                 <p>$12.54</p>
+                <a href="assets/deadend.html">
+                    <button class="border-0">BUY NOW</button>
+                </a>
             </div>
-            <div class="mx-2 prod-div">
+            <div class="mx-2 my-5 prod-div">
                 <img src="assets/pexels-n-voitkevich-7852562.jpg" alt="" class="w-100">
                 <h5>product title</h5>
                 <p>$54.21</p>
+                <a href="assets/deadend.html">
+                    <button class="border-0">BUY NOW</button>
+                </a>
             </div>
         </div>
     </section>
 
     <footer class="text-center p-5">
         <div class="">
-            <img src="/assets/landing/dashicons--facebook.svg" alt="">
-            <img src="/assets/landing/hugeicons--new-twitter.svg" alt="">
-            <img src="/assets/landing/jam--instagram.svg" alt="">
+            <img src="assets/dashicons--facebook.svg" alt="">
+            <img src="assets/hugeicons--new-twitter.svg" alt="">
+            <img src="assets/jam--instagram.svg" alt="">
         </div>
         <div>2019 tea station. all rights reserved</div>
     </footer>

@@ -9,6 +9,13 @@ header {
   background-position: center;
   height: 500px;
 
+  nav {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
   .header-main {
     padding-top: 150px;
   }
@@ -16,7 +23,7 @@ header {
 
 .sub2sec {
   width: fit-content;
-  
+
   .serv3 {
     max-width: 320px;
   }
@@ -24,4 +31,17 @@ header {
 
 footer {
   background-color: rgb(148, 168, 120);
+}
+
+@media (min-width: 767px) {
+
+  //section1
+  .options {
+    width: 600px;
+
+    a {
+      color: black;
+    }
+  }
+
 }
