@@ -56,7 +56,7 @@ header nav .bars:focus-within .dropdown {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  -webkit-animation: slideDown 0.3s ease-in-out forwards;
+  -webkit-animation: slidedown 0.3s ease-in-out forwards;
   animation: slideDown 0.3s ease-in-out forwards;
   z-index: 10;
 }
