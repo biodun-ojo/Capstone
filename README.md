@@ -14,7 +14,7 @@
 
 ## Installation
 ### Prerequisites
-- We recommend vs code for this project as it is more suited for this project
+- I recommend vs code for this project as it is more suited for this project
 - it is also recommended to download the live sass compiler by gleen marks on the extention market on vs code in other for the sass file to be compiled to css file.
 
 ## Built With 
