@@ -15,6 +15,52 @@ body {
   height: 50px;
 }
 
+.sec-1 nav .bars {
+  position: relative;
+}
+
+.sec-1 nav .bars .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  list-style: none;
+  padding: 10px 10px;
+  margin: 0;
+  -webkit-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  overflow-y: auto;
+}
+
+.sec-1 nav .bars .dropdown li {
+  padding: 7px 0;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+.sec-1 nav .bars .dropdown li:hover {
+  background-color: #c4c4c4;
+}
+
+.sec-1 nav .bars .dropdown li .item {
+  text-decoration: none;
+  color: black;
+}
+
+.sec-1 nav .bars:hover .dropdown,
+.sec-1 nav .bars:focus-within .dropdown {
+  display: block;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-animation: slideDown 0.3s ease-in-out forwards;
+  animation: slideDown 0.3s ease-in-out forwards;
+  z-index: 10;
+}
+
 .sec-1 .header-main {
   padding-top: 150px;
 }

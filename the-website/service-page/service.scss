@@ -14,6 +14,47 @@ header {
       width: 50px;
       height: 50px;
     }
+
+    .bars {
+      position: relative;
+
+      .dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        padding: 10px 10px;
+        margin: 0;
+        transform: translateY(-20px);
+        transition: all 0.3s ease-in-out;
+        overflow-y: auto;
+
+        li {
+          padding: 7px 0;
+          transition: background-color 0.4s;
+
+          &:hover {
+            background-color: #c4c4c4;
+          }
+
+          .item {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+
+      &:hover .dropdown,
+      &:focus-within .dropdown {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+        animation: slideDown 0.3s ease-in-out forwards;
+        z-index: 10;
+      }
+    }
   }
 
   .header-main {
