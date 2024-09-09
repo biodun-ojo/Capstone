@@ -46,14 +46,14 @@ body {
   width: 50px;
 }
 
-.sec-3 div {
+.sec-3 .bout {
   max-width: 350px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.sec-3 div button {
+.sec-3 .bout .lean {
   background-color: rgb(148, 168, 120);
 }
 

@@ -51,14 +51,13 @@ body {
   }
 }
 
-
 //section 3
 .sec-3 {
-  div {
+  .bout {
     max-width: 350px;
     width: fit-content;
 
-    button {
+    .lean {
       background-color: rgb(148, 168, 120);
     }
   }
@@ -94,7 +93,7 @@ footer {
   .sec-1 {
     .options {
       width: 600px;
-      
+
       a {
         color: black;
       }
