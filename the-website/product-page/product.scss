@@ -3,7 +3,6 @@ body {
 }
 
 header {
-  background-image: url(assets/new-main-bg.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(17, 17, 17)), url(assets/new-main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +51,7 @@ header {
         display: block;
         opacity: 1;
         transform: translateY(0);
-        animation: slideDown 0.3s ease-in-out forwards;
+        animation: slidedown 0.3s ease-in-out forwards;
         z-index: 10;
       }
     }
