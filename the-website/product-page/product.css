@@ -4,6 +4,8 @@ body {
 
 header {
   background-image: url(assets/new-main-bg.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgb(17, 17, 17))), url(assets/new-main-bg.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgb(17, 17, 17)), url(assets/new-main-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -56,13 +58,21 @@ header nav .bars:focus-within .dropdown {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0);
-  -webkit-animation: slidedown 0.3s ease-in-out forwards;
+  -webkit-animation: slideDown 0.3s ease-in-out forwards;
   animation: slideDown 0.3s ease-in-out forwards;
   z-index: 10;
 }
 
 header .header-main {
   padding-top: 150px;
+}
+
+header .header-main h4 {
+  color: rgb(148, 168, 120);
+}
+
+header .header-main h1 {
+  color: rgb(77, 100, 44);
 }
 
 section {
